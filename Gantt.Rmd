@@ -36,9 +36,9 @@ gantt_data <- data.frame(
 gantt_data$task <- factor(gantt_data$task, levels = c(
   "Development R package (base version)", 
   "Draft SRI Paper",  
-  "Submit SRI Paper SLEEP",  # Moved this task below "Draft SRI Paper"
+  "Submit SRI Paper to SLEEP",  # Moved this task below "Draft SRI Paper"
   "Draft technical documentation Paper", 
-  "Submit technical documentation Paper"  
+  "Submit technical documentation Paper to JMPB"  
 ))
 
 # Extract unique start and end dates
