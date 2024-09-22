@@ -71,7 +71,7 @@ ggplot(gantt_data, aes(x = start, xend = end, y = task, yend = task, color = cat
     panel.grid.minor.x = element_blank()
   ) +
   labs(
-    title = "Gantt Chart",
+    title = "",
     x = ""
   ) +
   scale_color_brewer(palette = "Set2") +
