@@ -1,9 +1,15 @@
 ---
-title: "DIZH Supplement"
+title: "<div style='text-align: center;'>DIZH Supplement</div>"
 output: html_document
 ---
 
-# Gantt-Chart
+<style>
+.title {
+  text-align: center;
+}
+</style>
+
+# Project Gantt-Chart
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7}
 
@@ -82,7 +88,7 @@ ggplot(gantt_data, aes(x = start, xend = end, y = task, yend = task, color = cat
 ```
 
 
-# SRI Imputation Bounds
+# Sleep Regularity Index (SRI) Imputation Bounds
 
 ![SRI 1112 Imputation Bounds](./SRI_1112_imputation_bounds.png){width=65%}
 ![SRI 1314 Imputation Bounds](./SRI_1314_imputation_bounds.png){width=65%}
