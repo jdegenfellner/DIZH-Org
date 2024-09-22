@@ -1,7 +1,9 @@
 ---
-title: "Gantt"
+title: "DIZH Supplement"
 output: html_document
 ---
+
+# Gantt-Chart
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7}
 
@@ -77,3 +79,10 @@ ggplot(gantt_data, aes(x = start, xend = end, y = task, yend = task, color = cat
   scale_color_brewer(palette = "Set2") +
   scale_x_date(date_labels = "%b %Y",  # Format x-axis labels
                breaks = date_breaks)  # Show all unique start and end dates
+```
+
+
+# SRI Imputation Bounds
+
+![SRI 1112 Imputation Bounds](./SRI_1112_imputation_bounds.png){width=65%}
+![SRI 1314 Imputation Bounds](./SRI_1314_imputation_bounds.png){width=65%}
